@@ -14,6 +14,8 @@ b. Bleak library that enables our IoT gateway to find the Arduino device, connec
 
 Once the image is received, it will be edited and forwarded as a input to heavy-weight ML model for remote inferencing. When this part is finished, the inference result will be sent back to the Arduino board and confirmed in the same way explained above (in first two examples). The implementation on the gateway side can be found in separate example (Gateway_examples).
 
+There is the last available example (natural_light) that shows the implementation of both inference strategy at same time on the Arduino board. More information about this example and the way how the more optimal solution between these two is selected, can be found in comments.
+
 # Required Arduino libraries 
 This is the list of required Arduino libraries that should be included in order to run this project successfully: 
 
