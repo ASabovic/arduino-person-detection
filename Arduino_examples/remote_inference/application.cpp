@@ -15,10 +15,10 @@ via BLE.
 struct Task application[TASK_AMOUNT];
 
 //Parameters used for the BLE communication
-char* uuidOftxChar = "2d2F88c4-f244-5a80-21f1-ee0224e80658";
-char* uuidOfrxChar = "00002A3D-0000-1000-8000-00805f9b34fb";
-char* uuidOfService = "180F";
-char* nameofPeripheral = "BLESender";
+char* uuidOftxChar = "UUID_TX_CHAR"; // example -> char* uuidOftxChar = "2d2F88c4-f244-5a80-21f1-ee0224e80658"
+char* uuidOfrxChar = "UUID_RX_CHAR"; // example -> char* uuidOfrxChar = "00002A3D-0000-1000-8000-00805f9b34fb"
+char* uuidOfService = "UUID_SERVICE"; // example -> char* uuidOfService = "180F"
+char* nameofPeripheral = "NAME_PERIPHERAL"; // example -> char* nameofPeripheral = "BLESender"
 int RX_BUFFER_SIZE = 220;
 bool RX_BUFFER_FIXED_LENGTH = false;
 char prediction_status[]="";
