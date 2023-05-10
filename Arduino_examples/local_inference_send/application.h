@@ -5,7 +5,6 @@
 #include <TensorFlowLite.h>
 #include "main_functions.h"
 #include "image_provider.h"
-#include "detection_responder.h"
 #include "model_settings.h"
 #include "person_detect_model_data.h"
 #include "tensorflow/lite/micro/micro_error_reporter.h"
